@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour {
 
     [Header("Ground Checker options")]
     public float groundCheckerY = 0.5f;    //Set this value to half of player collider height 
-    public float groundCheckerRadius = 0.7f;    //Set this value to half of player collider width
+    public float groundCheckerRadius = 0.7f;    //Set this value to player collider width
     public LayerMask groundLayer;
 
     //Other variables
