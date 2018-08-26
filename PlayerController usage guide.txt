@@ -1,0 +1,12 @@
+This script include simple player controller and movement, flips sprite depending on direction player is facing and ability to perform more than one jump
+
+Add this script to game object that have SpriteRenderer, Rigidbody2D & Collider2D and set these values:
+
+Rigidbody2D:
+Collision Detection - Continous
+Freeze Rotation Z - true
+
+Collider2D
+Material - Physic Material with Friction set to 0
+
+On every ground objects set Layer to custom layer (e.g Ground) and assign it to "Ground Layer" in PlayerController
